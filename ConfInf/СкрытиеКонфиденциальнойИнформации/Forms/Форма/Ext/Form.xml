@@ -10,6 +10,11 @@
 				<CommandName>Form.Command.СохранитьЖурналВExcel</CommandName>
 				<ExtendedTooltip name="ФормаСохранитьЖурналВExcelРасширеннаяПодсказка" id="164"/>
 			</Button>
+			<Button name="ФормаОчиститьЖурналЛогов" id="165">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОчиститьЖурналЛогов</CommandName>
+				<ExtendedTooltip name="ФормаОчиститьЖурналЛоговРасширеннаяПодсказка" id="166"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -1449,6 +1454,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаСохранитьЖурналВExcel</Action>
+		</Command>
+		<Command name="ОчиститьЖурналЛогов" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить журнал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить журнал логов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаОчиститьЖурналЛогов</Action>
 		</Command>
 	</Commands>
 </Form>
